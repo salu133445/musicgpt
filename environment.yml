@@ -1,0 +1,26 @@
+name: musicgpt
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.9
+  - jupyterlab=3.3.4
+  - ffmpeg=4.3.1
+  - fluidsynth=2.2.5
+  - pip=22.0.4
+  - numpy=1.22.3
+  - scipy=1.8.0
+  - matplotlib=3.5.1
+  - tqdm=4.64.0
+  - scikit-learn=1.0.2
+  - cudatoolkit-dev=11.3
+  - pytorch::pytorch=1.11.0
+  - pylint
+  - black
+  - flake8
+  - pip:
+    - git+https://github.com/salu133445/muspy@main#egg=muspy
+    - linear-attention-transformer==0.19.1
+    - performer-pytorch==1.1.4
+    - pytorch-fast-transformers>=0.3.0
+    - x-transformers==0.28.0
