@@ -1,6 +1,6 @@
 # Music Generative Pretrained Transformer
 
-We aim to scale up music transformer models using the largest symbolic music dataset available.
+We aim to scale up music transformer models to the largest symbolic music dataset available.
 
 ## Prerequisites
 
@@ -16,7 +16,7 @@ conda env create -f environment.yml
 
 ### Download the MuseScore dataset
 
-For copyright concern, please download the MuseScore data yourselves. You may find this repository helpful (https://github.com/Xmader/musescore-dataset).
+For copyright concern, please download the MuseScore dataset yourself. You may find this [repository](https://github.com/Xmader/musescore-dataset) helpful.
 
 ### Prepare the name list
 
